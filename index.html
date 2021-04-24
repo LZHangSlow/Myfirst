@@ -32,7 +32,10 @@
 			color: aqua;
 		}
 	</style>
-	<script>
+	
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript">
 	    function time() {
 	        var date = new Date();
 	        var hour = date.getHours();
@@ -44,6 +47,8 @@
 	    }
 	    setInterval(time,1000);
 		window.onload = time;
+	</script>
+	<script type="text/jscript">
 		$(function() {
 			$('#Background').height('#Background').height();
 		})
@@ -53,7 +58,6 @@
 		<h2>这是我在github上发布的第一个静态页面</h2>
 		<h3>LZH</h3>
 		<div id="div1"></div>
-		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 		<span id="busuanzi_container_site_pv">不知道是什么的计数器：<span id="busuanzi_value_site_pv"></span>次</span>
 	</body>
 </html>
